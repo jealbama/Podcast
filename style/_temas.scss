@@ -1,0 +1,101 @@
+.temas{                   
+    .alguno{
+        font-family: 'IBM Plex Sans';
+        font-size: 36px;
+        color: #060A24;
+        letter-spacing: 0;
+        line-height: 42px;
+        font-weight: 400;
+        margin-left: 16px;
+    }
+    .icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;   
+        div{
+            margin: 0;
+            padding-top: 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            img{
+                width: 104px;
+                height: 104px;
+            }
+            h5{
+                font-family: 'IBM Plex Sans';
+                font-size: 24px;
+                color: #060A24;
+                letter-spacing: 0;
+                text-align: center;
+            }            
+        }   
+    }
+}
+       
+@media only screen and (min-width: 700px){
+
+    .temas{
+        .alguno{
+            font-family: 'IBM Plex Sans';   
+            font-size: 36px;
+            color: #060A24;
+            letter-spacing: 0;
+            display: flex;
+            margin-left: 100px;
+        }
+        .icon{
+            flex-direction: row;
+            justify-content: space-around;
+            display: flex;
+            flex-direction: row;
+            margin-left: 58px;
+            margin-right: 58px;
+            div{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                flex-wrap: wrap;
+                img{
+                    width: 104px;
+                    height: 104px;
+                    margin: 0;
+                    padding-top: 64px;
+                }
+                h5{
+                    font-weight: 400;
+                    font-size: 28px;
+                    text-align: center;
+                }
+            }
+        }        
+    }
+}
+
+@media only screen and (min-width: 1000px){
+
+    .temas{
+        .alguno{
+
+            font-family: 'IBM Plex Sans';   
+            font-size: 48px;
+            color: #060A24;
+            letter-spacing: 0;
+            margin-left: 200px;
+            
+        }
+        .icon{
+            flex-direction: row;
+            justify-content: space-around;
+            div{
+                img{
+                    width: 104px;
+                    height: 104px;
+                    margin: 0;
+                }
+            }
+        }
+    }        
+}
